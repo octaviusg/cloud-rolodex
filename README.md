@@ -17,8 +17,7 @@ Employee Directory application.
 
 ### License
   MIT
-### Contributing
-Cloud Rolodex is an open source project, and anyone is encouraged to contribute by cloning or forking the code and working to improve its function and versatility.
+
 
 Developers who worked on this project are: 
 
