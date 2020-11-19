@@ -1,0 +1,67 @@
+
+
+<section>
+<div class="parent">
+<div class="div1">
+{{!-- height: 100vh in iframe element for media style screen size med and down --}}
+       
+
+   
+
+
+      
+        
+            {{!-- href="/dashboard/all-users" --}}
+            <a class="" href="#myframe" id="all-users">View Directory</a>
+         
+    
+
+        
+
+        
+      
+            {{!-- href="/dashboard/edit/{{id}}" --}}
+            <a class="" id="update-btn" href="/dashboard/edit/{{id}}">Edit Profile</a>
+          
+ 
+          <h4 class="subtitle">Departments</h4>
+          <div class="" id="department-buttons">
+            {{#each departments as |department| }}
+            {{!-- {{> user-info-button user}} --}}
+                {{!-- href="/dashboard/{{name}}" --}}
+            <a class="btndept" href="#myframe" department="{{name}}" id="{{name}}">{{name}}</a>
+            {{/each}}
+
+          </div>
+       
+      
+</div>  
+  
+  
+<div class="div2">  
+
+
+   <form method="GET" action="/dashboard/users-by-name" enctype="multipart/form-data" id="user-form" class="search">
+            <label class="form-label" for="first-name"></label>
+            <input name="first-name" id="first-name" type="text" autofocus="true"  placeholder="Ex: John Smith"  class="form-input" />
+            <input type="submit" class="searchbtn" id="get-user" value="Search">
+          </form>
+
+
+<iframe id="myframe" src="dashboard/my-user-card" frameborder="0" allowfullscreen></iframe>
+        {{#each user as |user| }}
+        
+        
+        {{> user-info department}}
+        
+        {{/each}}
+     
+  </div>
+        
+ 
+
+  
+     
+</section>
+
+<script src="/javascript/dashboard.js"></script>
