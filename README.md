@@ -1,4 +1,4 @@
-# cloud-rolodex
+# Cloud Rolodex
 
 ## Description 
 Employee Directory application.
