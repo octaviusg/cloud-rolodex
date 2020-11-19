@@ -10,10 +10,10 @@ Employee Directory application.
 ### Dashboard
 ![Dashboard](./public/images/dashboard.png)
 
-### Mobile Homepage
-![Dashboard](./public/images/mobilehome.png)
-### Mobile Dashboard
-![Dashboard](./public/images/mobiledash.jpg)
+
+  Mobile Homepage        |  Mobile Dashboard
+:-------------------------:|:-------------------------:
+![Dashboard](./public/images/mobilehome.png) |  ![Dashboard](./public/images/mobiledash.jpg)
 
 ### License
   MIT
