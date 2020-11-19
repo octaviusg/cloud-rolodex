@@ -11,8 +11,9 @@ Employee Directory application.
 ![Dashboard](./public/images/dashboard.png)
 
 
+### Mobile
+
   Mobile Homepage        |  Mobile Dashboard
-:-------------------------:|:-------------------------:
 ![Dashboard](./public/images/mobilehome.png) |  ![Dashboard](./public/images/mobiledash.jpg)
 
 ### License
